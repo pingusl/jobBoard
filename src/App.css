@@ -1,1 +1,57 @@
+.board {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.header {
+  background-color: black;
+  color: white;
+  width: 100%;
+  text-align: center;
+}
+.jobs {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: white;
+  width: 800px;
+}
+.footer {
+  background-color: darkgrey;
+  color: black;
+  width: 100%;
+  text-align: center;
+  line-height: 60px;
+}
 
+.red-border,
+.green-border,
+.yellow-border,
+.blue-border,
+.pink-border {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-width: 10px;
+  border-style: solid;
+  width: 200px;
+  height: 200px;
+  margin: 15px;
+  padding: 3px;
+}
+.red-border {
+  border-color: red;
+}
+.green-border {
+  border-color: greenyellow;
+}
+.yellow-border {
+  border-color: yellow;
+}
+.blue-border {
+  border-color: blue;
+}
+.pink-border {
+  border-color: pink;
+}
